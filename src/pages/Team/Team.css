@@ -41,7 +41,14 @@
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flip-card:hover .flip-card-inner,
+/* Only allow hover on real hover devices (desktop) */
+@media (hover: hover) {
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Always allow programmatic flip */
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
