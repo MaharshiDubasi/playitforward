@@ -41,7 +41,7 @@ function Shell() {
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/playitforward">
       <Shell />
     </HashRouter>
   )
