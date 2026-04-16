@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home/Home.tsx'
 import AboutUs from './pages/AboutUs/AboutUs.tsx'
@@ -41,9 +41,9 @@ function Shell() {
 
 function App() {
   return (
-    <BrowserRouter basename="/playitforward">
+    <HashRouter>
       <Shell />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
