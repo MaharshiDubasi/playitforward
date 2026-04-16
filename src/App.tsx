@@ -41,7 +41,7 @@ function Shell() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/playitforward">
       <Shell />
     </BrowserRouter>
   )
