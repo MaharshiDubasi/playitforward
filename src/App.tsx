@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home/Home.tsx'
-import AboutUs from './pages/AboutUs/AboutUs.tsx'
+import WhoWeAre from './pages/WhoWeAre/WhoWeAre.tsx'
 import Events from './pages/Events/Events.tsx'
 import Team from './pages/Team/Team.tsx'
 import './App.css'
@@ -24,7 +24,7 @@ function Shell() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/about" element={<AboutUs />} />
+            <Route path="/about" element={<WhoWeAre />} />
             <Route path="/team" element={<Team />} />
           </Routes>
         </div>

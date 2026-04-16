@@ -1,7 +1,7 @@
 import PageHero from '../../components/PageHero.tsx'
-import './AboutUs.css'
+import './WhoWeAre.css'
 
-export default function AboutUs() {
+export default function WhoWeAre() {
   return (
     <main className="about">
       <PageHero
