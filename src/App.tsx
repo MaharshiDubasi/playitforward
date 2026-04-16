@@ -24,7 +24,7 @@ function Shell() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/about" element={<WhoWeAre />} />
+            <Route path="/whoWeAre" element={<WhoWeAre />} />
             <Route path="/team" element={<Team />} />
           </Routes>
         </div>

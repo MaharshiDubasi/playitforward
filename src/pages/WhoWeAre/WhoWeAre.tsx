@@ -3,13 +3,12 @@ import './WhoWeAre.css'
 
 export default function WhoWeAre() {
   return (
-    <main className="about">
+    <main className="whoWeAre">
       <PageHero
         badge="Our Story"
         badgeTone="yellow"
         title="Cards for a Cause"
         description="Play It Forward: NWA was born from a simple idea — the card game table brings people together, and when people come together with intention, they can change lives. We harness the passion of competitive card gaming to fight food insecurity in Northwest Arkansas, one card at a time."
-        className="about-hero"
       />
 
       <section className="statements-section">

@@ -42,7 +42,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/about"
+              to="/whoWeAre"
               className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
               onClick={() => setIsOpen(false)}
             >
