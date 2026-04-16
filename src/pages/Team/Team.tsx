@@ -46,7 +46,6 @@ export default function Team() {
         title="Meet the Team"
         description="Passionate players and advocates who believe a great game can do great things."
         variant="subtle"
-        className="team-hero"
       />
 
       <section className="team-section">

@@ -24,6 +24,10 @@
   outline: none;
 }
 
+.flip-card:not(.flipped) .flip-card-bio {
+  overflow: hidden;
+}
+
 .flip-card:focus-visible {
   box-shadow: 0 0 0 3px var(--color-primary);
   border-radius: 16px;
@@ -152,6 +156,7 @@
 .flip-card-bio {
   flex: 1;
   overflow-y: auto;
+  overscroll-behavior: none;
   scrollbar-width: thin;
   scrollbar-color: rgba(255,255,255,0.2) transparent;
 }
