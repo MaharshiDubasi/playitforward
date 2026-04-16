@@ -59,7 +59,7 @@
 }
 
 .home-logo {
-  height: clamp(160px, 30vw, 360px);
+  height: clamp(120px, 30vw, 360px);
   width: auto;
 }
 
