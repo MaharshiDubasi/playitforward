@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import PIFLogo from '../images/logo/PIFLogo.png'
 import './Navbar.css'
 
@@ -9,9 +9,13 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-top">
-        <Link to="/" className="navbar-brand">
+        <NavLink
+          to="/"
+          className="navbar-brand"
+          onClick={() => setIsOpen(false)}
+        >
           <img src={PIFLogo} alt="PlayItForward" className="brand-logo" />
-        </Link>
+        </NavLink>
         <button
           type="button"
           className={`navbar-toggle${isOpen ? ' open' : ''}`}
