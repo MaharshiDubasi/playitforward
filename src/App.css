@@ -1,0 +1,45 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.app-content {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.app-footer {
+  background: var(--color-surface-dark);
+  color: var(--color-text-on-dark);
+  text-align: center;
+  padding: 28px 40px;
+  font-size: 14px;
+  margin-top: auto;
+  border-top: 3px solid var(--color-primary);
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+  animation: page-in 0.3s ease-out both;
+}

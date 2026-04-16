@@ -1,0 +1,72 @@
+.about {
+  width: 100%;
+}
+
+/* ── Statements ────────────────────────────────────────────── */
+.statements-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 80px 60px;
+  background: var(--color-bg-subtle);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.statement-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 44px 40px;
+  border-top: 4px solid transparent;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.statement-card:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.07);
+  transform: translateY(-3px);
+}
+
+.statement-card.mission {
+  border-top-color: var(--color-primary);
+}
+
+.statement-card.vision {
+  border-top-color: var(--color-accent);
+}
+
+.statement-card h2 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+}
+
+.statement-card.mission h2 {
+  color: var(--color-primary);
+}
+
+.statement-card.vision h2 {
+  color: var(--color-accent);
+}
+
+.statement-card p {
+  font-size: 15.5px;
+  color: var(--color-text-body);
+  line-height: 1.85;
+  margin: 0;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .statements-section {
+    grid-template-columns: 1fr;
+    padding: 48px 24px;
+    gap: 20px;
+  }
+
+  .statement-card {
+    padding: 32px 28px;
+  }
+}

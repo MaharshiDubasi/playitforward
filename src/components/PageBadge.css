@@ -1,0 +1,22 @@
+.page-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+}
+
+.page-badge--blue {
+  background: var(--color-primary-faint);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary-border);
+}
+
+.page-badge--yellow {
+  background: var(--color-yellow-surface);
+  color: var(--color-yellow-text);
+  border: 1px solid var(--color-yellow-border);
+}

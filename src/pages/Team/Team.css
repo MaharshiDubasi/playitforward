@@ -1,0 +1,193 @@
+.team-page {
+  width: 100%;
+}
+
+/* ── Grid ──────────────────────────────────────────────────── */
+.team-section {
+  padding: 80px 60px;
+  background: var(--color-bg);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* ── Flip Card ─────────────────────────────────────────────── */
+.flip-card {
+  perspective: 1200px;
+  height: 420px;
+  cursor: pointer;
+  outline: none;
+}
+
+.flip-card:focus-visible {
+  box-shadow: 0 0 0 3px var(--color-primary);
+  border-radius: 16px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+}
+
+/* Front */
+.flip-card-front {
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+}
+
+.flip-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.flip-card-initials {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--color-text-inverse);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  letter-spacing: -2px;
+}
+
+.flip-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 22px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.flip-card-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.flip-card-role {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.flip-card-hint {
+  display: none;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+  pointer-events: none;
+}
+
+@media (hover: none) {
+  .flip-card-hint {
+    display: block;
+  }
+}
+
+/* Back */
+.flip-card-back {
+  transform: rotateY(180deg);
+  background: var(--color-primary-dark);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.flip-card-back h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.flip-card-back .flip-card-role {
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 8px;
+}
+
+.flip-card-bio {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+
+.flip-card-bio p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.75;
+  margin: 0 0 12px;
+}
+
+.flip-card-bio p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .team-section {
+    padding: 48px 28px;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .flip-card {
+    height: 380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flip-card {
+    height: 360px;
+  }
+}
