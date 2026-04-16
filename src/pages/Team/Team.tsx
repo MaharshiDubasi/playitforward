@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import PageHero from '../../components/PageHero.tsx'
-import DrakeImg from '../../images/team/Drake.jpeg'
+import DrakeImg from '../../images/team/Drake.jpg'
 import IsaacImg from '../../images/team/Isaac.png'
 import TrevorImg from '../../images/team/Trevor.jpeg'
 import PabloImg from '../../images/team/Pablo.jpg'
