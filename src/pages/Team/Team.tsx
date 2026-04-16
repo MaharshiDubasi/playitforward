@@ -54,7 +54,10 @@ export default function Team() {
             <div
               className={`flip-card${flipped === member.name ? ' flipped' : ''}`}
               key={member.name}
-              onClick={() => toggle(member.name)}
+              onClick={(event) => {
+                event.stopPropagation();
+                toggle(member.name);}
+              }
               role="button"
               tabIndex={0}
               aria-pressed={flipped === member.name}
