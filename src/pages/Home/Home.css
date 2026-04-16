@@ -24,7 +24,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../images/PIFConvention.webp");
+  background-image: url("../../images/PIF_FBG_3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   padding: 5px 16px;
   border-radius: 20px;
-  border: 1px solid var(--color-primary-border-light);
+  border: 1px solid var(--color-primary-dark);
 }
 
 .home-logo {
@@ -88,8 +88,8 @@
   gap: 8px;
   padding: 11px 24px;
   border-radius: 10px;
-  border: 1.5px solid var(--color-primary-border);
-  background: var(--color-primary-light);
+  border: 1.5px solid var(--color-primary-dark);
+  background: var(--color-primary-subtle);
   backdrop-filter: blur(4px);
   color: var(--color-text-dark);
   font-size: 15px;
