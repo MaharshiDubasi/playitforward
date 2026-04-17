@@ -11,7 +11,7 @@ export default function Home() {
         <div className="main-title">
           <div className="main-badge">Non-Profit</div>
           <img src={PIFLogo_WhiteBG} alt="PlayItForward" className="home-logo" />
-          <h2>Community | Passion | Generosity </h2>
+          <h2>All proceeds go to help fight local food insecurity</h2>
         </div>
         <div className="content">
           <Link to="/whoWeAre" className="content-button">Who We Are</Link>

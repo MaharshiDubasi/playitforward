@@ -24,9 +24,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../images/PIF_FBG_3.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(160deg, var(--color-primary-dark) 0%, var(--color-primary-light) 60%, var(--color-primary-subtle) 80%, var(--color-bg) 100%) no-repeat center;
   background-size: cover;
   opacity: 0.3;
   z-index: 0;
