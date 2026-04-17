@@ -14,7 +14,7 @@ const team = [
     bio: 'Drake Welch is the founder of Play It Forward: NWA and a proud member of the Northwest Arkansas community he now calls home. Originally from Texas, Drake moved to Northwest Arkansas for college and quickly fell in love with the area, choosing to stay and invest in the community that has given him so much.\n\nDrake\u2019s passion for helping others was shaped early in life. His experiences with food insecurity during childhood left a lasting impact and helped form the values that guide him today. Those moments taught him the importance of community support and the difference it can make when people come together to help one another.\n\nAt heart, Drake is a self-proclaimed nerd who wants to turn his passion for gaming into a way to make a difference. When he\u2019s not organizing events, you can usually find him at a local game store, out on a disc golf course, or firing up the smoker to barbecue for friends and family. For Drake, community is about connection and using that connection to help others.',
   },
   {
-    name: 'Isaac Haas',
+    name: 'Isaac Hass',
     role: 'Vice President & Treasurer',
     image: IsaacImg as string,
     bio: 'Isaac is an explorer with a heart for service. Having lived in NWA since 2009, he\u2019s witnessed the region\u2019s rapid transformation and the growing need for community\u2011driven support. A simple idea\u2014sparked during a phone call about turning a shared trading\u2011card hobby into a force for good\u2014became the foundation for Play It Forward: NWA. When he\u2019s not working to uplift others, Isaac can often be found on a local disc golf course or browsing the aisles of a favorite card shop, always looking for new ways to connect, encourage, and give back.',

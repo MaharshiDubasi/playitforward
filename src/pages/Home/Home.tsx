@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="content">
           <Link to="/whoWeAre" className="content-button">Who We Are</Link>
-          <Link to="/team" className="content-button">Team</Link>
+          <Link to="/team" className="content-button">Meet The Team</Link>
           <Link to="/events" className="content-button">Events</Link>
           {/*<Link to="/about" className="content-button primary">Donate</Link>*/} {/* TODO: Re-enable this once the donate page is up */}
         </div>
