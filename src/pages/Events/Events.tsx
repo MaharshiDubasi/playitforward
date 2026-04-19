@@ -57,7 +57,8 @@ const upcomingEvents = [
     format: 'Trade Show',
     cost: 'Free',
     description:
-      'A public-facing event where players can showcase their trading cards and exchange with others in a fun and interactive environment.',
+      'A public-facing event where players can showcase their trading cards and exchange ' +
+      'with vendors and other players in a fun and interactive environment.',
     details:
       'A free trade show with vendors where all proceeds will go to fight food insecurity in Northwest Arkansas.' +
       ' There will door prizes, raffles, and surprise events!',
