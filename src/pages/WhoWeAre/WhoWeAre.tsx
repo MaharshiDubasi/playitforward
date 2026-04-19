@@ -7,8 +7,9 @@ export default function WhoWeAre() {
       <PageHero
         badge="Our Story"
         badgeTone="yellow"
-        title="Cards for a Cause"
-        description="Play It Forward: NWA was born from a simple idea — the card game table brings people together, and when people come together with intention, they can change lives. We harness the passion of competitive card gaming to fight food insecurity in Northwest Arkansas, one card at a time."
+        description="Play It Forward: NWA was born from a simple idea — hobbies brings people together.
+
+        We harness the passion of hobbies and community to fight. And each and every person makes a difference."
       />
 
       <section className="statements-section">

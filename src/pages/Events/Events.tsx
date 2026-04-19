@@ -4,35 +4,61 @@ import './Events.css'
 
 const upcomingEvents = [
   {
-    title: 'Spring Charity Tournament',
-    date: 'May 18, 2026',
+    title: 'Cube for a Cause',
+    date: 'May 24, 2026',
     location: 'Final Boss Games, Springdale',
-    format: 'Trading Card Tournament',
+    format: 'Magic the Gathering Cube Draft',
+    cost: '$20',
     description:
-      'A community tournament built around friendly competition, raffle prizes, and direct fundraising for local families facing food insecurity.',
+      'All-day Cube and lunch',
     details:
       'Players can expect multiple rounds of organized play, community raffle support, and a welcoming event environment focused on raising money for local hunger relief efforts.',
   },
   {
-    title: 'Board Game Night for Good',
-    date: 'June 7, 2026',
-    location: 'Fayetteville Public Library',
-    format: 'Open Play Community Night',
+    title: 'cEDH: Win a Tropical Island',
+    date: 'June 13, 2026',
+    location: 'Gear Bentonville - Fayetteville',
+    format: 'Competitive MTG Commander Tournament',
+    cost: '$40',
     description:
-      'Bring your favorite tabletop games, meet new people, and help turn a casual night of play into practical support for Northwest Arkansas neighbors.',
+      'A high-stakes, competitive event for experienced Magic: The Gathering players, with a grand prize of a coveted Tropical Island card.',
     details:
-      'This event is designed as a low-barrier community meetup where families, students, and hobby groups can drop in, play together, and contribute to a broader fundraising push.',
+      'The tournament will follow a cEDH format, attracting top-tier players from the region. In addition to the main event, there will be a raffle and opportunities for spectators to learn about competitive Magic and support our cause.',
   },
   {
-    title: 'Summer Donation Drive',
-    date: 'July 12, 2026',
-    location: 'Bentonville Town Square',
+    title: 'Stuff the Truck',
+    date: 'June 13, 2026',
+    location: 'Gear Bentonville - Fayetteville',
     format: 'Community Fundraiser',
+    cost: 'Free',
     description:
       'A public-facing event focused on collecting pantry support, spotlighting partner businesses, and growing awareness around hunger in the region.',
     details:
       'Alongside donations, the drive will feature partner booths, event volunteers, and opportunities for local businesses to contribute product, sponsorship, or community visibility.',
   },
+  {
+    title: 'Play It Forward at Naturals Stadium!',
+    date: 'June 19, 2026',
+    location: 'Naturals Ball Park',
+    format: 'Baseball Game Fundraiser',
+    cost: 'TBD',
+    description:
+      'A special night where Play It Forward will be the centerpiece of a night of community support and community building.',
+    details:
+      'The night will feature a variety of events, including a game of baseball and a community-led fundraiser for hunger relief efforts.',
+  },
+  {
+    title: 'Trade It Forward',
+    date: 'August 8, 2026',
+    location: 'Jones Center, Springdale',
+    format: 'Trade Show',
+    cost: 'Free',
+    description:
+      'A public-facing event where players can showcase their trading cards and exchange with others in a fun and interactive environment.',
+    details:
+      'The event will feature a variety of activities, including a live trading session, ' +
+      'opportunities for players to network and learn from each other, and a possible Riftbound tournament.',
+  }
 ]
 
 export default function Events() {
@@ -90,6 +116,7 @@ export default function Events() {
                   <div className="event-card-meta">
                     <span>{event.location}</span>
                     <span>{event.format}</span>
+                    <span>Entry: {event.cost}</span>
                   </div>
                   <p>{event.description}</p>
                   <span className="event-card-action">
@@ -134,6 +161,10 @@ export default function Events() {
               <div className="event-card-detail-group">
                 <span className="event-card-detail-label">Where</span>
                 <p>{selectedEvent.location}</p>
+              </div>
+              <div className="event-card-detail-group">
+                <span className="event-card-detail-label">Cost</span>
+                <p>{selectedEvent.cost}</p>
               </div>
               <div className="event-card-detail-group">
                 <span className="event-card-detail-label">Format</span>

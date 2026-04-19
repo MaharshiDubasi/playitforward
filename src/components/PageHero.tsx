@@ -4,7 +4,7 @@ import './PageHero.css'
 type PageHeroProps = {
   badge: string
   badgeTone?: 'blue' | 'yellow'
-  title: string
+  title?: string
   description: string
   variant?: 'surface' | 'subtle'
   className?: string
