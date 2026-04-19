@@ -59,7 +59,7 @@ const upcomingEvents = [
       'A public-facing event where players can showcase their trading cards and exchange with others in a fun and interactive environment.',
     details:
       'The event will feature a variety of activities, including a live trading session, ' +
-      'opportunities for players to network and learn from each other, and a possible Riftbound tournament.',
+      'and opportunities for players to network and learn from each other.',
   }
 ]
 
