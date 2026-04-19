@@ -7,7 +7,7 @@ const upcomingEvents = [
     title: 'Cube for a Cause',
     date: 'May 24, 2026',
     location: 'Final Boss Games, Springdale',
-    format: 'Magic the Gathering Cube Draft',
+    format: 'Magic, Pokemon, Riftbound, and more!',
     cost: '$20',
     description:
       'All-day Cube and lunch',
@@ -21,7 +21,7 @@ const upcomingEvents = [
     format: 'Competitive MTG Commander Tournament',
     cost: '$40',
     description:
-      'A high-stakes, competitive event for experienced Magic: The Gathering players, with a grand prize of a coveted Tropical Island card.',
+      'A competitive event for Magic: The Gathering players with a grand prize of a coveted Tropical Island card.',
     details:
       'The tournament will follow a cEDH format, attracting top-tier players from the region. In addition to the main event, there will be a raffle and opportunities for spectators to learn about competitive Magic and support our cause.',
     link:
@@ -34,9 +34,10 @@ const upcomingEvents = [
     format: 'Community Fundraiser',
     cost: 'Free',
     description:
-      'A public-facing event focused on collecting pantry support, spotlighting partner businesses, and growing awareness around hunger in the region.',
+      'Food drive for local hunger relief organizations and schools.',
     details:
-      'Alongside donations, the drive will feature partner booths, event volunteers, and opportunities for local businesses to contribute product, sponsorship, or community visibility.',
+      'Attendees are encouraged to bring non-perishable food items to donate, ' +
+      'with a goal of filling a truck to support local food banks and community organizations.',
   },
   {
     title: 'Play It Forward at Naturals Stadium!',
@@ -58,8 +59,8 @@ const upcomingEvents = [
     description:
       'A public-facing event where players can showcase their trading cards and exchange with others in a fun and interactive environment.',
     details:
-      'The event will feature a variety of activities, including a live trading session, ' +
-      'and opportunities for players to network and learn from each other.',
+      'A free trade show with vendors where all proceeds will go to fight food insecurity in Northwest Arkansas.' +
+      ' There will door prizes, raffles, and surprise events!',
   }
 ]
 
