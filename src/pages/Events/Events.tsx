@@ -17,18 +17,20 @@ const upcomingEvents = [
   {
     title: 'cEDH: Win a Tropical Island',
     date: 'June 13, 2026',
-    location: 'Gear Bentonville - Fayetteville',
+    location: 'Gear Gaming - Fayetteville',
     format: 'Competitive MTG Commander Tournament',
     cost: '$40',
     description:
       'A high-stakes, competitive event for experienced Magic: The Gathering players, with a grand prize of a coveted Tropical Island card.',
     details:
       'The tournament will follow a cEDH format, attracting top-tier players from the region. In addition to the main event, there will be a raffle and opportunities for spectators to learn about competitive Magic and support our cause.',
+    link:
+     'https://topdeck.gg/event/castaway-classic-win-a-tropical-island'
   },
   {
     title: 'Stuff the Truck',
     date: 'June 13, 2026',
-    location: 'Gear Bentonville - Fayetteville',
+    location: 'Gear Gaming - Fayetteville',
     format: 'Community Fundraiser',
     cost: 'Free',
     description:
@@ -114,8 +116,8 @@ export default function Events() {
                   <div className="event-card-date">{event.date}</div>
                   <h3>{event.title}</h3>
                   <div className="event-card-meta">
-                    <span>{event.location}</span>
-                    <span>{event.format}</span>
+                    <span>Location: {event.location}</span>
+                    {/*<span>{event.format}</span>*/}
                     <span>Entry: {event.cost}</span>
                   </div>
                   <p>{event.description}</p>
@@ -170,6 +172,12 @@ export default function Events() {
                 <span className="event-card-detail-label">Format</span>
                 <p>{selectedEvent.format}</p>
               </div>
+              {selectedEvent.link &&
+                <div className="event-card-detail-group">
+                  <span className="event-card-detail-label">Link</span>
+                  <a href={selectedEvent.link}>{selectedEvent.link}</a>
+                </div>
+              }
             </div>
           </section>
         )}

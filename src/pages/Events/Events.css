@@ -215,6 +215,13 @@
   margin: 0;
 }
 
+.event-card-detail-group a {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--color-primary);
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   .events-section {
     padding: 64px 28px;
