@@ -12,7 +12,8 @@ const upcomingEvents = [
     description:
       'All-day Cube and lunch',
     details:
-      'Players can expect multiple rounds of organized play, community raffle support, and a welcoming event environment focused on raising money for local hunger relief efforts.',
+      'Players can expect multiple rounds of organized play, community raffle support, and a welcoming event environment focused on raising money for local hunger relief efforts.' +
+      ' Pizza will be provided for lunch!',
   },
   {
     title: 'cEDH: Win a Tropical Island',
