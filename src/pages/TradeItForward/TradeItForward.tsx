@@ -9,7 +9,9 @@ export default function TradeItForward() {
         badge="Special Event"
         badgeTone="yellow"
         title="Trade It Forward"
-        description="A public-facing event where players can showcase their trading cards and exchange with vendors and other players in a fun and interactive environment."
+        description="A free event where everyone can showcase their collections and exchange with vendors
+        and other players in a fun and interactive environment. There will be surprise events, door prizes,
+        raffles, and a silent acution to support local schools!"
         className="trade-it-forward-hero"
         action={
           <Link to="/events" className="content-button primary">
@@ -32,8 +34,13 @@ export default function TradeItForward() {
           </div>
           <div className="highlight-item">
             <span className="highlight-icon">🎟️</span>
-            <h3>Prize Raffles</h3>
-            <p>Win rare cards, merchandise, and more through our door prizes.</p>
+            <h3>Prizes</h3>
+            <p>Win rare cards, merchandise, a silent auction, door prizes, raffles, and more!</p>
+          </div>
+          <div className="highlight-item">
+            <span className="highlight-icon">!</span>
+            <h3>Surprise Events</h3>
+            <p>TBA</p>
           </div>
         </div>
       </section>
@@ -68,14 +75,16 @@ export default function TradeItForward() {
 
           <div className="trade-it-forward-section impact">
             <h2>Our Impact</h2>
-            <div className="impact-stat">
-              <span className="stat-number">100%</span>
-              <span className="stat-label">of Proceeds Fund Meals</span>
+            <div className="impact-content">
+              <span className="impact-icon">🍲</span>
+              <div className="impact-details">
+                <p className="impact-tagline">proceeds go to fight food insecurity</p>
+                <p className="impact-text">
+                  By participating in Trade It Forward, you're not just trading cards—you're helping provide 
+                  nutritious meals to children facing food insecurity in Northwest Arkansas.
+                </p>
+              </div>
             </div>
-            <p className="impact-text">
-              By participating in Trade It Forward, you're not just trading cards—you're helping provide 
-              nutritious meals to children facing food insecurity in Northwest Arkansas.
-            </p>
             <div className="impact-footer">
               <p>In partnership with local food banks, community centers, and schools.</p>
             </div>
