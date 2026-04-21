@@ -67,6 +67,15 @@ export default function Navbar() {
               Events
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/trade-it-forward"
+              className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+              onClick={() => setIsOpen(false)}
+            >
+              Trade It Forward
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>

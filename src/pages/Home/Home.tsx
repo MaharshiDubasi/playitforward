@@ -17,6 +17,7 @@ export default function Home() {
           <Link to="/whoWeAre" className="content-button">Who We Are</Link>
           <Link to="/team" className="content-button">Meet The Team</Link>
           <Link to="/events" className="content-button">Events</Link>
+          <Link to="/trade-it-forward" className="content-button">Trade It Forward</Link>
           {/*<Link to="/about" className="content-button primary">Donate</Link>*/} {/* TODO: Re-enable this once the donate page is up */}
         </div>
       </section>

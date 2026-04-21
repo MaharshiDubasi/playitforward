@@ -1,8 +1,21 @@
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import PageHero from '../../components/PageHero.tsx'
 import './Events.css'
 
-const upcomingEvents = [
+interface Event {
+  title: string
+  date: string
+  location: string
+  format: string
+  cost: string
+  description: string
+  details: string
+  link?: string
+  pageLink?: string
+}
+
+const upcomingEvents: Event[] = [
   {
     title: 'Cube for a Cause',
     date: 'May 24, 2026',
@@ -63,6 +76,7 @@ const upcomingEvents = [
     details:
       'A free trade show with vendors where all proceeds will go to fight food insecurity in Northwest Arkansas.' +
       ' There will door prizes, raffles, and surprise events!',
+    pageLink: '/trade-it-forward'
   }
 ]
 
@@ -179,6 +193,12 @@ export default function Events() {
                 <div className="event-card-detail-group">
                   <span className="event-card-detail-label">Link</span>
                   <a href={selectedEvent.link}>{selectedEvent.link}</a>
+                </div>
+              }
+              {selectedEvent.pageLink &&
+                <div className="event-card-detail-group">
+                  <span className="event-card-detail-label">Page</span>
+                  <Link to={selectedEvent.pageLink}>Visit Event Page</Link>
                 </div>
               }
             </div>

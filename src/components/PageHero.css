@@ -40,6 +40,10 @@
   color: var(--color-text-secondary);
 }
 
+.page-hero-action {
+  margin-top: 32px;
+}
+
 @media (max-width: 900px) {
   .page-hero {
     padding: 64px 28px;

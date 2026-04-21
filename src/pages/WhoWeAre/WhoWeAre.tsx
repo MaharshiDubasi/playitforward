@@ -7,7 +7,7 @@ export default function WhoWeAre() {
       <PageHero
         badge="Our Story"
         badgeTone="yellow"
-        description="Play It Forward: NWA was born from a simple idea — hobbies brings people together.
+        description="Play It Forward: NWA was born from a simple idea — hobbies bring people together.
 
         We harness the passion of hobbies and community to fight. And each and every person makes a difference."
       />

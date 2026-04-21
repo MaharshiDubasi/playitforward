@@ -8,6 +8,7 @@ type PageHeroProps = {
   description: string
   variant?: 'surface' | 'subtle'
   className?: string
+  action?: React.ReactNode
 }
 
 export default function PageHero({
@@ -17,6 +18,7 @@ export default function PageHero({
   description,
   variant = 'surface',
   className = '',
+  action,
 }: PageHeroProps) {
   const classes = ['page-hero', `page-hero--${variant}`, className].filter(Boolean).join(' ')
 
@@ -26,6 +28,7 @@ export default function PageHero({
         <PageBadge tone={badgeTone}>{badge}</PageBadge>
         <h1>{title}</h1>
         <p>{description}</p>
+        {action && <div className="page-hero-action">{action}</div>}
       </div>
     </section>
   )
