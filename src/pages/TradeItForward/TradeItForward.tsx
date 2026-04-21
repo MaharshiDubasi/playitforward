@@ -70,7 +70,7 @@ export default function TradeItForward() {
             <h2>Our Impact</h2>
             <div className="impact-stat">
               <span className="stat-number">100%</span>
-              <span className="stat-label">Proceeds Fund Meals</span>
+              <span className="stat-label">of Proceeds Fund Meals</span>
             </div>
             <p className="impact-text">
               By participating in Trade It Forward, you're not just trading cards—you're helping provide 
