@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import PageHero from '../../components/PageHero.tsx'
 import './TradeItForward.css'
 
@@ -13,12 +12,15 @@ export default function TradeItForward() {
         and other players in a fun and interactive environment. There will be surprise events, door prizes,
         raffles, and a silent acution to support local schools!"
         className="trade-it-forward-hero"
-        action={
-          <Link to="/events" className="content-button primary">
-            View All Events
-          </Link>
-        }
       />
+      <section className="trade-it-forward-announcements">
+        <div className="announcement-card">
+          <h1>📣</h1>
+          <p>
+            Vendor & sponsorship applications will be live on Friday May 1st, 2026.
+          </p>
+        </div>
+      </section>
 
       <section className="trade-it-forward-highlights">
         <div className="highlights-container">

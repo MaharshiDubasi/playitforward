@@ -5,6 +5,23 @@
   min-height: 500px;
 }
 
+/* ── Announcements ────────────────────────────────────────────── */
+.trade-it-forward-announcements {
+  background: var(--color-yellow-faint);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-text-secondary);
+}
+
+.announcement-card p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: var(--color-accent);
+  margin: 0;
+}
+
 /* ── Highlights ────────────────────────────────────────────── */
 .trade-it-forward-highlights {
   background: var(--color-primary-faint);
@@ -172,41 +189,6 @@
   font-size: 14px;
   font-style: italic;
   color: rgba(255, 255, 255, 0.75);
-}
-
-/* CTA Buttons (adapted from Home.css) */
-.content-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 28px;
-  border-radius: 12px;
-  border: 1.5px solid var(--color-primary-dark);
-  background: var(--color-primary-subtle);
-  color: var(--color-text-dark);
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.content-button:hover {
-  background: var(--color-primary-faint);
-  border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(28, 126, 197, 0.15);
-  transform: translateY(-1px);
-}
-
-.content-button.primary {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-text-inverse);
-}
-
-.content-button.primary:hover {
-  background: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
-  box-shadow: 0 4px 16px rgba(28, 126, 197, 0.35);
 }
 
 /* ── Responsive ────────────────────────────────────────────── */
