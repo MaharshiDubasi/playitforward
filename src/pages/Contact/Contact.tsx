@@ -6,11 +6,12 @@ export default function Contact() {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const name = formData.get('name');
+    const subject = formData.get('subject');
     const email = formData.get('email');
     const message = formData.get('message');
     
     // Using mailto as a simple frontend-only way to "send" email
-    window.location.href = `mailto:drake@playitforwardnwa.com?subject=Question from ${name}&body=${encodeURIComponent(message as string)}%0D%0A%0D%0AFrom: ${name} (${email})`;
+    window.location.href = `mailto:drake@playitforwardnwa.com?subject=${subject}&body=${encodeURIComponent(message as string)}%0D%0A%0D%0AFrom: ${name} at (${email})`;
   };
 
   return (
@@ -35,6 +36,10 @@ export default function Contact() {
                 <label htmlFor="email">Email</label>
                 <input type="email" id="email" name="email" required placeholder="your@email.com" />
               </div>
+              <div className={"form-group"}>
+                <label htmlFor="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="Subject" />
+              </div>
               <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" required placeholder="How can we help?" rows={5}></textarea>
@@ -46,7 +51,7 @@ export default function Contact() {
           <div className="contact-sidebar">
             <div className="info-card">
               <h3>Direct Contact</h3>
-              <p><strong>Email:</strong> info@playitforwardnwa.com</p>
+              <p><strong>Email:</strong> drake@playitforwardnwa.com</p>
               <p><strong>Location:</strong> Northwest Arkansas</p>
             </div>
             <div className="info-card">
