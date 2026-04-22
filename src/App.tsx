@@ -6,6 +6,7 @@ import WhoWeAre from './pages/WhoWeAre/WhoWeAre.tsx'
 import Events from './pages/Events/Events.tsx'
 import Team from './pages/Team/Team.tsx'
 import TradeItForward from './pages/TradeItForward/TradeItForward.tsx'
+import Contact from './pages/Contact/Contact.tsx'
 import './App.css'
 
 function ScrollToTop() {
@@ -28,6 +29,7 @@ function Shell() {
             <Route path="/whoWeAre" element={<WhoWeAre />} />
             <Route path="/team" element={<Team />} />
             <Route path="/trade-it-forward" element={<TradeItForward />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </main>

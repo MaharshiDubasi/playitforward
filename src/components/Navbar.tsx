@@ -76,6 +76,15 @@ export default function Navbar() {
               Trade It Forward
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+              onClick={() => setIsOpen(false)}
+            >
+              Contact Us
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
