@@ -19,7 +19,7 @@
 }
 
 .page-hero-content {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -33,11 +33,11 @@
 }
 
 .page-hero p {
-  max-width: 620px;
+  max-width: 750px;
   margin: 0 auto;
   font-size: 17px;
   line-height: 1.85;
-  font-weight: 525;
+  font-weight: 500;
   color: var(--color-text);
 }
 
