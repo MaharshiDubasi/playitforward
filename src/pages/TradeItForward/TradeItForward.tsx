@@ -58,7 +58,7 @@ export default function TradeItForward() {
               </div>
               <div className="event-info-item">
                 <span className="info-label">Location</span>
-                <a href={"https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6"}>Jones Center, Springdale</a>
+                <a href={"https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6"}>The Jones Center, 922 E Emma Ave, Springdale, AR 72764</a>
               </div>
               <div className="event-info-item">
                 <span className="info-label">Format</span>

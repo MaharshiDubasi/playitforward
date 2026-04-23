@@ -68,7 +68,7 @@ const upcomingEvents: Event[] = [
   {
     title: 'Trade It Forward',
     date: 'August 8, 2026',
-    location: 'Jones Center, Springdale',
+    location: 'The Jones Center, 922 E Emma Ave, Springdale, AR 72764',
     locationLink: 'https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6',
     format: 'Trade Show',
     cost: 'Free',
