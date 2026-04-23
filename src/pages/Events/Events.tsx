@@ -7,6 +7,7 @@ interface Event {
   title: string
   date: string
   location: string
+  locationLink?: string
   format: string
   cost: string
   description: string
@@ -68,6 +69,7 @@ const upcomingEvents: Event[] = [
     title: 'Trade It Forward',
     date: 'August 8, 2026',
     location: 'Jones Center, Springdale',
+    locationLink: 'https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6',
     format: 'Trade Show',
     cost: 'Free',
     description:
@@ -179,7 +181,7 @@ export default function Events() {
               </div>
               <div className="event-card-detail-group">
                 <span className="event-card-detail-label">Where</span>
-                <p>{selectedEvent.location}</p>
+                <a href={selectedEvent.locationLink}>{selectedEvent.location}</a>
               </div>
               <div className="event-card-detail-group">
                 <span className="event-card-detail-label">Cost</span>

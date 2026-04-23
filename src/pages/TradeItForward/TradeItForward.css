@@ -72,6 +72,12 @@
   color: var(--color-text-secondary);
 }
 
+.highlight-item a {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-primary-light);
+}
+
 /* ── Content Grid ────────────────────────────────────────────── */
 .trade-it-forward-content {
   padding: 100px 40px;

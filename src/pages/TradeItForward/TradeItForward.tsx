@@ -58,7 +58,7 @@ export default function TradeItForward() {
               </div>
               <div className="event-info-item">
                 <span className="info-label">Location</span>
-                <p>Jones Center, Springdale</p>
+                <a href={"https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6"}>Jones Center, Springdale</a>
               </div>
               <div className="event-info-item">
                 <span className="info-label">Format</span>
