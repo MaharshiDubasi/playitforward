@@ -17,8 +17,11 @@ export default function TradeItForward() {
         <div className="announcement-card">
           <h1>📣</h1>
           <p>
-            Vendor & sponsorship applications will be live on Friday May 1st, 2026.
+            Vendor & sponsorship applications are live!
           </p>
+          <a href="https://docs.google.com/forms/d/17zYgU5kMlq4ZIyaNHDF2nzvhUw8SqPUEEbkI5rNcmHI" className="announcement-button">
+            Sign up here!
+          </a>
         </div>
       </section>
 
