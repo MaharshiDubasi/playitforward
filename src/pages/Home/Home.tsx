@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
 import PIFLogo_WhiteBG from "../../images/logo/PIFLogo_WhiteBG.png";
+import AnnouncementBanner from "../../components/AnnouncementBanner.tsx";
 
 
 export default function Home() {
   return (
     <main className="home">
       {/* Main */}
+      <AnnouncementBanner />
+
       <section className="main">
         <div className="main-title">
           <div className="main-badge">Non-Profit</div>
