@@ -60,16 +60,24 @@ export default function TradeItForward() {
                 <p>August 8, 2026</p>
               </div>
               <div className="event-info-item">
+                <span className="info-label">Cost</span>
+                <p>Free Entry</p>
+              </div>
+              <div className="event-info-item">
+                <span className="info-label">Vendor Setup</span>
+                <p>7:00am to 9:30am</p>
+              </div>
+              <div className="event-info-item">
+                <span className="info-label">Open to Public</span>
+                <p>10:00am to 7:00pm</p>
+              </div>
+              <div className="event-info-item">
                 <span className="info-label">Location</span>
                 <a href={"https://maps.app.goo.gl/L7HFYWVi6vJ4rJSm6"}>The Jones Center, 922 E Emma Ave, Springdale, AR 72764</a>
               </div>
               <div className="event-info-item">
                 <span className="info-label">Format</span>
                 <p>Trade Show</p>
-              </div>
-              <div className="event-info-item">
-                <span className="info-label">Cost</span>
-                <p>Free Entry</p>
               </div>
             </div>
             <p className="event-details-text">
