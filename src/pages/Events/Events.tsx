@@ -77,7 +77,8 @@ const upcomingEvents: Event[] = [
       'with vendors and other players in a fun and interactive environment.',
     details:
       'A free trade show with vendors where all proceeds will go to fight food insecurity in Northwest Arkansas.' +
-      ' There will door prizes, raffles, and surprise events!',
+      ' There will door prizes, raffles, and surprise events! ' +
+      'Vendor setup is from 7:00am to 9:30am and the event is open to the public from 10:00am to 7:00pm.',
     pageLink: '/trade-it-forward'
   }
 ]
