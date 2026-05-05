@@ -35,7 +35,7 @@ function Shell() {
       </main>
       <footer className="app-footer">
         <p>
-          &copy; {new Date().getFullYear()} PlayItForward &mdash; A non-profit
+          &copy; {new Date().getFullYear()} PlayItForward &mdash; A 501 (c) 3 non-profit
           organization. All proceeds go toward funding meals for children in need.
         </p>
       </footer>

@@ -12,7 +12,7 @@ export default function Home() {
 
       <section className="main">
         <div className="main-title">
-          <div className="main-badge">Non-Profit</div>
+          <div className="main-badge">501 (c) 3 Non-Profit</div>
           <img src={PIFLogo_WhiteBG} alt="PlayItForward" className="home-logo" />
           <h2>All proceeds go to help fight local food insecurity</h2>
         </div>
