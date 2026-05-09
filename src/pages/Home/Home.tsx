@@ -22,7 +22,7 @@ export default function Home() {
           <Link to="/events" className="content-button">Events</Link>
           <Link to="/trade-it-forward" className="content-button">Trade It Forward</Link>
           <Link to="/contact" className="content-button">Contact Us</Link>
-          <a href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13729" className="content-button">Donate</a>
+          <a href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13729" className="content-button primary">Donate</a>
         </div>
       </section>
     </main>
