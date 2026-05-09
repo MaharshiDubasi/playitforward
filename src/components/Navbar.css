@@ -109,6 +109,17 @@
   font-weight: 600;
 }
 
+.donate-link {
+  background: var(--color-primary);
+  color: var(--color-text-inverse) !important;
+  font-weight: 600;
+}
+
+.donate-link:hover {
+  background: var(--color-primary-light);
+  color: var(--color-text-inverse) !important;
+}
+
 @media (max-width: 760px) {
   .navbar-top {
     justify-content: space-between;
@@ -144,7 +155,7 @@
   }
 
   .navbar-nav.open {
-    max-height: 320px;
+    max-height: 500px;
     padding: 12px 20px 16px;
     opacity: 1;
     pointer-events: auto;

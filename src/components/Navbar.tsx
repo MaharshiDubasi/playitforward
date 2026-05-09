@@ -85,6 +85,17 @@ export default function Navbar() {
               Contact Us
             </NavLink>
           </li>
+          <li>
+            <a
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13729"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link donate-link"
+              onClick={() => setIsOpen(false)}
+            >
+              Donate
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
