@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
-  max-width: 1120px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -22,6 +22,9 @@
   height: 420px;
   cursor: pointer;
   outline: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 16px;
+  position: relative;
 }
 
 .flip-card:not(.flipped) .flip-card-bio {
@@ -30,7 +33,11 @@
 
 .flip-card:focus-visible {
   box-shadow: 0 0 0 3px var(--color-primary);
-  border-radius: 16px;
+}
+
+.flip-card.flipped {
+  box-shadow: 0 0 0 4px var(--color-accent), 0 12px 32px rgba(0, 0, 0, 0.15);
+  z-index: 10;
 }
 
 .flip-card-inner {
