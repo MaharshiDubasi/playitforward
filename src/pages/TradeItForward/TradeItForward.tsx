@@ -1,6 +1,5 @@
 import PageHero from '../../components/PageHero.tsx'
 import './TradeItForward.css'
-import AnnouncementBanner from "../../components/AnnouncementBanner.tsx";
 
 export default function TradeItForward() {
   return (
@@ -14,8 +13,6 @@ export default function TradeItForward() {
         raffles, and a silent acution to support local schools!"
         className="trade-it-forward-hero"
       />
-
-      <AnnouncementBanner />
 
       <section className="trade-it-forward-highlights">
         <div className="highlights-container">
